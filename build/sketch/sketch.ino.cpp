@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#line 1 "j:\\vscode\\arduino\\arduino_study\\sketch.ino"
 #include <SoftwareSerial.h>
 SoftwareSerial bt(8, 9); // TX BT, RX BT
 
