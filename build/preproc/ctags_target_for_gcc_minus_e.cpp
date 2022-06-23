@@ -1,6 +1,7 @@
-#include <DHT11.h>
+# 1 "j:\\vscode\\arduino\\arduino_study\\sketch.ino"
+# 2 "j:\\vscode\\arduino\\arduino_study\\sketch.ino" 2
 int pin=8;
-DHT11 dht11(pin); 
+DHT11 dht11(pin);
 void setup()
 {
    Serial.begin(9600);
@@ -26,7 +27,7 @@ void loop()
     Serial.println();
     Serial.print("Error No :");
     Serial.print(err);
-    Serial.println();    
+    Serial.println();
   }
-  delay(DHT11_RETRY_DELAY); //delay for reread
+  delay(1000 /* 1000ms*/); //delay for reread
 }

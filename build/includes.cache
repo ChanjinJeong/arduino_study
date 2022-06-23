@@ -1,0 +1,27 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "j:\\vscode\\arduino\\arduino_study\\build\\sketch\\sketch.ino.cpp",
+    "Include": "DHT11.h",
+    "Includepath": "C:\\Users\\ckswl\\OneDrive\\문서\\Arduino\\libraries\\DHT11"
+  },
+  {
+    "Sourcefile": "j:\\vscode\\arduino\\arduino_study\\build\\sketch\\sketch.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ckswl\\OneDrive\\문서\\Arduino\\libraries\\DHT11\\DHT11.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
