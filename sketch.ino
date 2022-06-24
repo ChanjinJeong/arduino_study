@@ -1,9 +1,9 @@
 #include <DHT11.h>
-int pin=8;
+int pin=8; //DHT 신호핀이 8번
 DHT11 dht11(pin); 
 void setup()
 {
-   Serial.begin(9600);
+   Serial.begin(9600); //통신 속도가 9600
   while (!Serial) {
       ; // wait for serial port to connect. Needed for Leonardo only
     }
@@ -11,11 +11,11 @@ void setup()
 
 void loop()
 {
-  int err;
+  int err; 
   float temp, humi;
   if((err=dht11.read(humi, temp))==0)
   {
-    Serial.print("temperature:");
+    Serial.print("temperature:"); //시리얼모니터
     Serial.print(temp);
     Serial.print(" humidity:");
     Serial.print(humi);
